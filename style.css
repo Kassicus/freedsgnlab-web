@@ -3,14 +3,13 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: rgb(50, 50, 50);
     font-family: 'Nunito', sans-serif;
 }
 
 .navigation-container{
     width: 100%;
     height: 50px;
-    position: fixed;
     background-color: rgb(255, 251, 36);
     display: flex;
     flex-direction: row;
@@ -65,4 +64,62 @@ body{
     justify-content: center;
     margin: 0;
     padding-left: 10%;
+}
+
+.quad-container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    justify-content: space-evenly;
+}
+
+.quad-entry{
+    width: 22%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    background-color: rgb(26, 26, 26);
+    border: 5px solid rgb(26, 26, 26);
+    border-radius: 10px;
+}
+
+.project-image{
+    height: 50%;
+    width: auto;
+    border-radius: 10px;
+}
+
+.project-name{
+    color: rgb(255, 251, 36);
+    margin: 0px;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.project-description{
+    color: white;
+    width: 90%;
+    text-align: justify;
+    margin-left: 5%;
+}
+
+.project-more{
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-top: auto;
+    margin-left: 25%;
+    font-size: 1.5em;
+    background-color:rgb(255, 251, 36);
+    color:rgb(26, 26, 26);
+}
+
+.project-more:hover{
+    background-color: rgb(7, 168, 242);
+    cursor: pointer;
 }
