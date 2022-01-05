@@ -28,7 +28,7 @@ body{
     width: 60%;
     height: 80%;
     align-items: center;
-    background-color: white;
+    background-color: rgb(50, 50, 50);
     border: none;
     border-radius: 5px;
     margin: auto;
@@ -100,26 +100,62 @@ body{
     margin-left: 5%;
 }
 
+.project-text-container{
+    display: flex;
+    flex-direction: column;
+}
+
 .project-description{
     color: white;
     width: 90%;
     text-align: justify;
     margin-left: 5%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.project-read-more{
+    color: rgb(255, 251, 36);
+    margin-right: 5%;
+    align-self: flex-end;
+    font-style: italic;
+}
+
+.project-read-more:hover{
+    color: rgb(7, 168, 242);
+}
+
+.project-socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.project-default-button{
+    margin-top: 5%;
+    width: 30%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 251, 36);
+    color: rgb(26, 26, 26);
+    font-size: 1.2em;
+}
+
+.project-like{
+    
+}
+
+.project-chat{
+    
 }
 
 .project-more{
-    width: 50%;
-    height: 50px;
-    border: none;
-    border-radius: 5px;
-    margin-top: auto;
-    margin-left: 25%;
-    font-size: 1.5em;
-    background-color:rgb(255, 251, 36);
-    color:rgb(26, 26, 26);
+    
 }
 
-.project-more:hover{
+.project-default-button:hover{
     background-color: rgb(7, 168, 242);
     cursor: pointer;
+    color: white;
 }
